@@ -1,4 +1,9 @@
 
+<h1>Zipididoda</h1>
+<%= link_to 'Article Index', controller: 'articles' %>
+
+<%= link_to 'New article', new_article_path %>
+
 <p>
   <strong>Title:</strong>
   <%= @article.title %>
@@ -8,3 +13,4 @@
   <strong>Text:</strong>
   <%= @article.text %>
 </p>
+<%= link_to 'Back', articles_path %>
